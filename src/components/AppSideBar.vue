@@ -30,10 +30,7 @@
         <v-main>
           <router-view />
         </v-main>
-
-        <v-footer app>
-          <span>© 2025 Ensino ASA. Todos os direitos reservados.</span>
-        </v-footer>
       </v-app>
+     
   </v-card>
 </template>

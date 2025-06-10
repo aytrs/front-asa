@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="12" style="text-align: center; margin-top: 50px;">
+      <v-col cols="12" style="text-align: center; margin-top: 3px;">
         <h1>Bem-vindo ao ASA</h1>
         <p>Página incial.</p>
       </v-col>
