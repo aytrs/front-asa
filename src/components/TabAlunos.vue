@@ -1,4 +1,5 @@
 <template>
+    <v-container>
     <v-data-table>
         <template v-slot:top>
             <v-toolbar flat>
@@ -37,4 +38,5 @@
 
         <!-- Aqui você pode adicionar os dados dos alunos -->
     </v-data-table>
+    </v-container>
 </template>

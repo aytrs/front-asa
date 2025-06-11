@@ -1,5 +1,7 @@
 <template>
-  <FullCalendar :options="calendarOptions" />
+  <v-container>
+    <FullCalendar :options="calendarOptions" />
+  </v-container>
 </template>
 
 <script setup>

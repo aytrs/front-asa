@@ -7,7 +7,7 @@
       >
         <v-list>
           <v-list-item
-            prepend-avatar=""
+            prepend-icon="mdi-account-circle"
             subtitle="exemplo@exemplo.com"
             title="Exemplo Usuário"
           ></v-list-item>
