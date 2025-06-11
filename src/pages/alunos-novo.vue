@@ -1,5 +1,5 @@
 <template>
     <div>
-        <TabAlunos />
+        a
     </div>
 </template>

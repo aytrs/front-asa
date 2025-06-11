@@ -11,8 +11,11 @@ declare module 'vue' {
     AppFooter: typeof import('./src/components/AppFooter.vue')['default']
     AppHeader: typeof import('./src/components/AppHeader.vue')['default']
     AppSideBar: typeof import('./src/components/AppSideBar.vue')['default']
+    Calendar: typeof import('./src/components/Calendar.vue')['default']
+    Calendario: typeof import('./src/components/Calendario.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    TabAlunos: typeof import('./src/components/TabAlunos.vue')['default']
   }
 }
