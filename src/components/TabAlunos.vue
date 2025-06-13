@@ -14,7 +14,7 @@
                     class="ml-4"
                     style="max-width: 300px; width: 100%;" 
                 ></v-text-field>
-                <v-btn color="primary" @click="$router.push('/alunos/novo')"> <v-icon>mdi-account-plus</v-icon> Novo Aluno</v-btn>
+                <v-btn color="primary" @click=addItem(item.id)> <v-icon>mdi-account-plus</v-icon> Novo Aluno</v-btn>
             </v-toolbar>
         </template>
 
@@ -22,7 +22,7 @@
             <v-btn icon @click="$router.push(`/alunos/${item.id}`)">
                 <v-icon>mdi-eye</v-icon>
             </v-btn>
-            <v-btn icon @click="$router.push(`/alunos/${item.id}/editar`)">
+            <v-btn icon @click=editItem(item.id)>">
                 <v-icon>mdi-pencil</v-icon>
             </v-btn>
             <v-btn icon @click="$emit('delete', item.id)">

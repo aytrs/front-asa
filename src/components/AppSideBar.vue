@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/html-indent -->
 <template>
   <v-card>
-      <v-navigation-drawer
+      <v-navigation-drawer color="primary" app clipped permanent width="250" class="elevation-2"
         expand-on-hover
         rail
       >
@@ -19,8 +19,8 @@
         </v-list>
       </v-navigation-drawer>
       <v-app>
-        <v-app-bar app>
-          <v-toolbar-title><a href="/" style="text-decoration: none; color: #000;">Ensino ASA</a></v-toolbar-title>
+        <v-app-bar app color="primary" dark>
+          <v-toolbar-title><a href="/" style="text-decoration: none; color: #fff;">Ensino ASA</a></v-toolbar-title>
           <v-spacer></v-spacer>
           <v-btn text @click="$router.push('/')">Temas</v-btn>
           <v-btn @click="logout">Logout</v-btn>

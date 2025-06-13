@@ -7,6 +7,7 @@ import Vue from '@vitejs/plugin-vue'
 import VueRouter from 'unplugin-vue-router/vite'
 import { VueRouterAutoImports } from 'unplugin-vue-router'
 import Vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
+import Pages from 'vite-plugin-pages'
 
 // Utilities
 import { defineConfig } from 'vite'
@@ -20,6 +21,7 @@ export default defineConfig({
     Vue({
       template: { transformAssetUrls },
     }),
+    Pages(),
     // https://github.com/vuetifyjs/vuetify-loader/tree/master/packages/vite-plugin#readme
     Vuetify({
       autoImport: true,

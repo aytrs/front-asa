@@ -20,7 +20,7 @@
 
     <div
       class="text-caption text-disabled"
-      style="position: absolute; right: 16px;"
+      style="position: absolute; right: 16px; bottom: 8px;"
     >
       &copy; 2025-{{ (new Date()).getFullYear() }} <span class="d-none d-sm-inline-block">Feito por Mateus Henrique</span>
       —
@@ -48,10 +48,11 @@
 
 <style scoped lang="sass">
   .social-link :deep(.v-icon)
-    color: rgba(var(--v-theme-on-background), var(--v-disabled-opacity))
+    color: #000
     text-decoration: none
     transition: .2s ease-in-out
 
     &:hover
-      color: rgba(25, 118, 210, 1)
+      color: #ff4081
+      transform: scale(1.1)
 </style>

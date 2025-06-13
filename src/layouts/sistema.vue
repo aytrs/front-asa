@@ -9,3 +9,6 @@
 <script setup>
   //
 </script>
+<script>
+  export const layout = 'sistema'
+</script>

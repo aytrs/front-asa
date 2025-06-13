@@ -17,5 +17,8 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TabAlunos: typeof import('./src/components/TabAlunos.vue')['default']
+    TelaLogin: typeof import('./src/components/TelaLogin.vue')['default']
+    Temas: typeof import('./src/components/Temas.vue')['default']
+    Teste: typeof import('./src/components/Teste.vue')['default']
   }
 }
